@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Paleta do site piloto. Para reutilizar o template: troque estes 4 vars. */
+:root {
+  --brand-950: #05283f;
+  --brand-900: #073252;
+  --brand-600: #0284c7;
+  --brand-500: #0ea5e9;
+  --accent-500: #f59e0b;
+  --accent-600: #d97706;
+}
+
+@theme inline {
+  --color-brand-950: var(--brand-950);
+  --color-brand-900: var(--brand-900);
+  --color-brand-600: var(--brand-600);
+  --color-brand-500: var(--brand-500);
+  --color-accent-500: var(--accent-500);
+  --color-accent-600: var(--accent-600);
+  --font-display: var(--font-display);
+  --font-sans: var(--font-body);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  color: #0f172a;
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+}

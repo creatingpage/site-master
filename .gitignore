@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Vercel
+.vercel/
+
+# Playwright shots output
+shots/desktop-*.png
+shots/m-*.png
+shots/mobile-*.png
+
+# Env & secrets
+.env
+.env.local
+.env*.local
+
+# OS / editor
+Desktop.ini
+Thumbs.db
+.vscode/
+.idea/
